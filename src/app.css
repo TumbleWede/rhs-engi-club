@@ -19,6 +19,7 @@ h1 {
 
 .container {
 	padding-top: 80px;
+	min-height: calc(100vh - 162px);
 }
 
 .container h1, h2 {
