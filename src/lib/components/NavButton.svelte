@@ -10,7 +10,7 @@
 </script>
 
 <button class="nav-button" style={current}>
-	<a class="nav-a" href={to}>{text}</a>
+	<a class="nav-a" href={to} data-sveltekit-preload-data>{text}</a>
 </button>
 
 <style>

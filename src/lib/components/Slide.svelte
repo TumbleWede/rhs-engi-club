@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<embed class="pdf" src="/meetings/{ src }.pdf" width="640px" height="360px" />
+	<embed class="pdf" src="/meetings/{ src }.pdf" width="640px" height="360px" data-sveltekit-preload-data />
 	<a href="/meetings/{src}.pdf" target="_blank"><h1>{ date }</h1></a>
 </div>
 
